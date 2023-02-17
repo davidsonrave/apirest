@@ -1,0 +1,18 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "crear mi primera api con node",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.9.2"
+  }
+}
