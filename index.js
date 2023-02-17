@@ -13,6 +13,10 @@ mongoose.connect('mongodb://localhost/restapis', {
 //crea el servidor 
 const app = express();
 
+//habilitar bodyparser para poder ller los valores que pasamos por postman
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extendedt:true}))
+
 //rutas de la app
 app.use('/', routes());
 
